@@ -1,0 +1,13 @@
+<md-sidenav-container class="my-app"  [ngClass]="sideNavMode === 'push' ? 'no-background' : ''" (window:resize)="onResize($event)">
+   <md-sidenav [mode]="sideNavMode" class="sidenav" #sidenav>         
+      <a routerLink="/dashboard" routerLinkActive="active"><md-icon>dashboard</md-icon><span>Dashboard</span></a>
+      <a routerLink="/emails" routerLinkActive="active" class="menu-item"><md-icon>email</md-icon><span>Emails</span></a>
+      <a routerLink="/" routerLinkActive="active" class="menu-item"><md-icon>account_circle</md-icon><span>Profile</span></a>
+      <a routerLink="/" routerLinkActive="active" class="menu-item"><md-icon>settings</md-icon><span>Settings</span></a>
+   </md-sidenav>
+   <md-toolbar>
+      <button md-icon-button (click)="sidenav.open()" ><md-icon>menu</md-icon></button>
+      <span>Application Menu</span>
+   </md-toolbar>
+   <div class="my-content"><router-outlet></router-outlet></div>
+</md-sidenav-container>

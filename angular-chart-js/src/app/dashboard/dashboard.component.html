@@ -1,0 +1,35 @@
+<div class="dashboard">
+   <md-card class="line-chart">
+      <canvas  baseChart
+               [datasets]="lineChartData"
+               [labels]="lineChartLabels"
+               [options]="lineChartOptions"
+               [colors]="lineChartColors"
+               [legend]="lineChartLegend"
+               [chartType]="lineChartType">
+      </canvas>
+   </md-card>
+   <md-card class="doughnut-chart" style="display:block;">
+      <canvas  baseChart
+               [data]="doughnutChartData"
+               [labels]="doughnutChartLabels"
+               [chartType]="doughnutChartType">
+      </canvas>
+   </md-card>
+   <md-card class="pie-chart">
+      <canvas  baseChart 
+               [data]="pieChartData"
+               [labels]="pieChartLabels"
+               [chartType]="pieChartType">
+      </canvas>
+   </md-card>
+   <md-card class="bar-chart">
+      <canvas baseChart
+         [datasets]="barChartData"
+         [labels]="barChartLabels"
+         [options]="barChartOptions"
+         [legend]="barChartLegend"
+         [chartType]="barChartType">
+      </canvas>
+   </md-card>
+</div>

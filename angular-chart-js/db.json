@@ -1,0 +1,156 @@
+{
+   "users" : [
+      { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+      { "id": 2,  "firstName" : "Dmitro",       "lastName" : "Selin",      "email" : "selin.dmitro@gmail.com" },
+      { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" }
+   ],
+   "verified_messages" : [
+      {
+         "id" : 0,
+         "from":  { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "to":    { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 1,
+         "from":  { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "to":    { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 2,
+         "from":  { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "to":    { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 3,
+         "from":  { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "to":    { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 4,
+         "from":  { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "to":    { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 5,
+         "from":  { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "to":    { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 6,
+         "from":  { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "to":    { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 7,
+         "from":  { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "to":    { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 8,
+         "from":  { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "to":    { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 9,
+         "from":  { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "to":    { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 10,
+         "from":  { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "to":    { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 11,
+         "from":  { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "to":    { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 12,
+         "from":  { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "to":    { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 13,
+         "from":  { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "to":    { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 14,
+         "from":  { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "to":    { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 15,
+         "from":  { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "to":    { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 16,
+         "from":  { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "to":    { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 17,
+         "from":  { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "to":    { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 18,
+         "from":  { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "to":    { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 19,
+         "from":  { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "to":    { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      },
+      {
+         "id" : 20,
+         "from":  { "id": 3,  "firstName" : "Alexandra",    "lastName" : "Morozova",   "email" : "selin.dmitro@gmail.com" },
+         "to":    { "id": 1,  "firstName" : "Anastasiia",   "lastName" : "Horban",     "email" : "horban.nastya@gmail.com" },
+         "date" : "28.09.17",
+         "content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hendrerit massa nec tincidunt scelerisque. Proin vitae magna et turpis sollicitudin."
+      }
+   ]
+}

@@ -1,0 +1,39 @@
+/* .emails {
+   
+} */
+
+/* .emails .safe-message {
+   background-color: rgba(147, 217, 217, 0.7);
+}
+
+.emails .unsafe-message {
+   background-color: rgba(255, 196, 209, 0.7);
+}
+
+.emails .safe-message:hover {
+   background-color: rgba(147, 217, 217, 1);
+   cursor: pointer;
+}
+
+.emails .unsafe-message:hover {
+   background-color: rgba(255, 196, 209, 1);
+   cursor: pointer;
+} */
+
+.emails md-row.unsafe-message md-cell {
+   color:rgb(255, 161, 181);
+}
+
+.emails md-row.safe-message md-cell {
+   color:rgb(75, 192, 192);
+}
+
+.emails md-row.unsafe-message:hover {
+   background-color: rgba(255, 161, 181, 0.1);
+   cursor: pointer;
+}
+
+.emails md-row.safe-message:hover {
+   background-color: rgba(75, 192, 192, 0.1);
+   cursor: pointer;
+}
