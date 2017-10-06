@@ -39,6 +39,8 @@
 }
 
 .emails md-cell {
-   padding: 5px;
    line-height: 20px;
+}
+.emails md-cell, .emails md-header-cell {   
+   padding: 5px;
 }
