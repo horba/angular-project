@@ -11,7 +11,7 @@
       </ng-container>
       <ng-container mdColumnDef="Message">
          <md-header-cell *mdHeaderCellDef> Content </md-header-cell>
-         <md-cell *mdCellDef="let element"> {{element.Source.Content}} </md-cell>
+         <md-cell *mdCellDef="let element"><show-more text="{{element.Source.Content}}" show-limit=30></show-more></md-cell>
       </ng-container>
       <ng-container mdColumnDef="IsSecure">
          <md-header-cell *mdHeaderCellDef> Is Secure </md-header-cell>
@@ -22,7 +22,7 @@
       </ng-container>
       <ng-container mdColumnDef="Date">
          <md-header-cell *mdHeaderCellDef> Date </md-header-cell>
-         <md-cell *mdCellDef="let element"> {{element.Source.Date | date:'mediumDate'}} </md-cell>
+         <md-cell *mdCellDef="let element">{{element.Source.Date | date:'mediumDate'}} </md-cell>
       </ng-container>
 
       <md-header-row *mdHeaderRowDef="['From', 'To', 'Message', 'IsSecure', 'Date']"></md-header-row>

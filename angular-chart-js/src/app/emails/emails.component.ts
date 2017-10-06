@@ -4,6 +4,7 @@ import {Observable} from 'rxjs/Observable';
 import 'rxjs/add/observable/of';
 
 import { MailService } from './shared/mail.service';
+// import { ShowMoreComponent } from './../common/show-more/show-more.component';
 
 import { DatePipe } from '@angular/common';
 
