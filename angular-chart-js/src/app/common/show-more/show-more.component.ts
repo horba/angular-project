@@ -13,7 +13,7 @@ enum Mode {
 })
 export class ShowMoreComponent {
    private mode:Mode;
-   Mode = Mode;
+   public Mode = Mode;
 
    ngOnInit() {
       this.mode = Mode.CropedText;
@@ -21,6 +21,10 @@ export class ShowMoreComponent {
 
    @Input('show-limit') private visibleCharsLimit:number;
    @Input('text') private sourceText:string;
+
+   onClick() {
+      this.mode = this.mode === Mode.CropedText ? Mode.FullText : Mode.CropedText;
+   }
 
    
 }
