@@ -1,0 +1,11 @@
+.show-more a {
+   background-color: transparent;
+   color: inherit;
+   opacity: 0.5;
+}
+
+.show-more a:hover {
+   background-color: transparent;
+   color: inherit;
+   opacity: 1.0;
+}

@@ -11,6 +11,8 @@ import { HttpModule }    from '@angular/http';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
+import { ShowMoreComponent } from './common/show-more/show-more.component';
+
 import { appRoutes } from './common/router/router.config';
 import { MainMenuComponent } from './mainmenu/mainmenu.component';
 import { EmailsComponent } from './emails/emails.component';
@@ -19,7 +21,8 @@ import { EmailsComponent } from './emails/emails.component';
     AppComponent,
     DashboardComponent,
     MainMenuComponent,
-    EmailsComponent
+    EmailsComponent,
+    ShowMoreComponent
   ],
   imports: [
     BrowserModule,

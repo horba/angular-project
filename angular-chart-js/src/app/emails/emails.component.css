@@ -37,3 +37,10 @@
    background-color: rgba(75, 192, 192, 0.1);
    cursor: pointer;
 }
+
+.emails md-cell {
+   line-height: 20px;
+}
+.emails md-cell, .emails md-header-cell {   
+   padding: 5px;
+}
